@@ -12,4 +12,4 @@ if st.button('おみくじを引く'):
     comments = ["やぁりましょう！":"ヒカキンさん！ヒカキンさんのお力をお借りしたいんです！"]
     result = random.choice(results)
     st.write(f'結果:{result}')
-    st.write(comments[results])
+    st.write(comments[result])
